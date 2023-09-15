@@ -10,10 +10,10 @@
 ```
 ### Inislize client
 ```js
-const twiiloSID = 'YOUR TWIILO ACCOUND SID';
+const accountSID = 'YOUR TWIILO ACCOUND SID';
 const authToken = 'YOUR TWILLO AUTH TOKEN';
 const serviceSID = "YOUR SERVICESID"
-const otpManager = require('node-twillo-otp-manager')(twiiloSID ,authToken , serviceSID);
+const otpManager = require('node-twillo-otp-manager')(accountSID ,authToken , serviceSID);
 ```
 ### Create serviceSID
 ```js
@@ -26,14 +26,14 @@ const serviceSID = res?.sid
 ### Send OTP 
 ```js
 const phone = "+918545624541" // phone number with contary code
-consr res = await otpManager.sendOTP(phone);
+const res = await otpManager.sendOTP(phone);
 console.log('OTP send status : -' , res)
 ```
 ### Verify OTP 
 ```js
 const phone = "+918545624541" // phone number with contary code
 const OTP = "YOU OTP";
-consr res = await otpManager.verifyOTP(phone , OTP);
+const res = await otpManager.verifyOTP(phone , OTP);
 console.log('OTP verify status : -' , res)
 ```
 ### Send custem sms
