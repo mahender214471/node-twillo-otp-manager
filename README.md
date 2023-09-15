@@ -3,7 +3,7 @@
 ``A nodejs package for verify mobile number , OTP or send sms by twilio. It's build over twilio node SDK.``
 
 ## Documentation
- - [Oficial twillo doc](https://www.twilio.com/docs/sms/quickstart/node)
+ - [Oficial twillo doc](https://www.twilio.com/docs/verify/quickstarts/node-express)
 ## Installation
 ```bash
   npm install node-twillo-otp-manager
