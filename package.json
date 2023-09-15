@@ -1,5 +1,5 @@
 {
-  "name": "twiilo-otp-manager",
+  "name": "node-twillo-otp-manager",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
